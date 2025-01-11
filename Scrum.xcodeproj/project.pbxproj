@@ -16,6 +16,7 @@
 		FA22ADC52D30BA3800812093 /* ScrumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22ADBB2D30BA3800812093 /* ScrumApp.swift */; };
 		FA22ADC62D30BA3800812093 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22ADB32D30BA3800812093 /* DailyScrum.swift */; };
 		FA22ADC72D30BA3800812093 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22ADB92D30BA3800812093 /* CardView.swift */; };
+		FA22ADC92D32109800812093 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22ADC82D32109600812093 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FA22ADBB2D30BA3800812093 /* ScrumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumApp.swift; sourceTree = "<group>"; };
 		FA22ADBC2D30BA3800812093 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		FA22ADBD2D30BA3800812093 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		FA22ADC82D32109600812093 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -131,6 +133,7 @@
 				FA22ADB52D30BA3800812093 /* Models */,
 				FA22ADB72D30BA3800812093 /* Preview Content */,
 				FA22ADB82D30BA3800812093 /* Assets.xcassets */,
+				FA22ADC82D32109600812093 /* DetailView.swift */,
 				FA22ADB92D30BA3800812093 /* CardView.swift */,
 				FA22ADBA2D30BA3800812093 /* MeetingView.swift */,
 				FA22ADBB2D30BA3800812093 /* ScrumApp.swift */,
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA22ADC12D30BA3800812093 /* TrailingIconLabelStyle.swift in Sources */,
+				FA22ADC92D32109800812093 /* DetailView.swift in Sources */,
 				FA22ADC22D30BA3800812093 /* ScrumsView.swift in Sources */,
 				FA22ADC32D30BA3800812093 /* MeetingView.swift in Sources */,
 				FA22ADC42D30BA3800812093 /* Theme.swift in Sources */,

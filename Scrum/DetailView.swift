@@ -19,11 +19,11 @@ struct DetailView: View {
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
                 HStack {
-                    Label("Color", systemImage: "paintpalette")
+                    Label("Theme", systemImage: "paintpalette")
                     Spacer()
-                    Text(scrum.color.description)
+                    Text(scrum.theme.name)
                         .padding(4)
-                        .background(scrum.color)
+                        .background(scrum.theme.mainColor)
                         .cornerRadius(4)
                 }
             }

@@ -1,11 +1,12 @@
 import SwiftUI
 
-struct DailyScrum: Identifiable {
+struct DailyScrum: Identifiable, Codable {
     var id: UUID
     var title: String
     var attendees: [Attendee]
     var lengthInMinutes: Int
     var theme: Theme
+    var history: [History] = []
     
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
@@ -17,7 +18,7 @@ struct DailyScrum: Identifiable {
 }
 
 extension DailyScrum {
-    struct Attendee: Identifiable {
+    struct Attendee: Identifiable, Codable {
         let id: UUID
         var name: String
         

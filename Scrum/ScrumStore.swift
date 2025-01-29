@@ -20,7 +20,7 @@ class ScrumStore: ObservableObject {
         )
         .appendingPathComponent("scrums.data")
     }
-    
+
     func load() async throws {
         let task = Task<[DailyScrum], Error> {
             let fileURL = try Self.fileUrl()
@@ -32,13 +32,12 @@ class ScrumStore: ObservableObject {
         }
         
         let scrums = try await task.value
-//        self.scrums = scrums
-        
+
         await MainActor.run {
             self.scrums = scrums
         }
     }
-    
+
     func save() async throws {
         let task = Task {
             let data = try JSONEncoder().encode(self.scrums)
